@@ -65,7 +65,7 @@ nav ul li a {
 footer {
   height: 500px;
   /* altura em 300px */
-  background-color: rgb(8, 161, 161);
+  background-color: white;
   color: rgb(19, 4, 233);
   font-family: "arial";
   padding-top: 50px;
@@ -74,6 +74,6 @@ footer {
   flex-direction: row;
 }
 #redes img {
-  width: 150px;
-  right: 150px;
+  width: 100px;
+  right: 100px;
 }
