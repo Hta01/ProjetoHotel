@@ -66,10 +66,14 @@ footer {
   height: 500px;
   /* altura em 300px */
   background-color: rgb(8, 161, 161);
-  color: rgb(243, 94, 8);
+  color: rgb(19, 4, 233);
   font-family: "arial";
   padding-top: 50px;
   /* dispor de froma flexivel e em linha */
   display: flex;
   flex-direction: row;
+}
+#redes img {
+  width: 150px;
+  right: 150px;
 }
