@@ -50,7 +50,7 @@ nav ul li {
   transition: ease 0.5s;
 }
 nav ul li:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 nav ul li a {
@@ -65,7 +65,7 @@ nav ul li a {
 footer {
   height: 500px;
   /* altura em 300px */
-  background-color: white;
+  background-color: rgb(26, 179, 128);
   color: rgb(19, 4, 233);
   font-family: "arial";
   padding-top: 50px;
@@ -76,4 +76,55 @@ footer {
 #redes img {
   width: 100px;
   right: 100px;
+}
+/*  início dos css home  */
+/*  fim do home */
+/* início do histoia  */
+/* fim da historia  */
+/* início do village */
+/* fim do village */
+/* início do  quarto */
+/* fim do quarto */
+/* inicio do contato  */
+main form {
+  width: 40%;
+  padding: 19px;
+  background-color: rgb(46, 153, 196);
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="E-mail"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: 0px;
+  border-bottom: 1px solid rgb(225, 230, 231);
+}
+main form input[type="tel"] main form select {
+  width: 30%;
+  background-color: rgb(231, 234, 235);
+}
+main form textarea {
+  height: 250px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: whitesmoke;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(197, 131, 8);
+  margin-left: 43%;
+}
+h2 {
+  font-size: 30pt;
 }
