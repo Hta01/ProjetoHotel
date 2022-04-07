@@ -72,12 +72,13 @@ footer {
   height: 500px;
   /* altura em 300px */
   background-color: rgb(122, 253, 227);
-  color: rgb(19, 4, 233);
-  font-family: "arial";
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding-top: 50px;
   /* dispor de froma flexivel e em linha */
   display: flex;
   flex-direction: row;
+  font-size: 20pt;
 }
 #redes img {
   width: 100px;
@@ -139,7 +140,7 @@ h2 {
   margin: 10px;
 }
 iframe {
-  width: 100%;
+  width: 90%;
   height: 500px;
   margin: 20px;
 }
@@ -292,3 +293,7 @@ h2 {
   text-align: center;
 }
 /* fim do restaurante */
+/* inicio mapa */
+#mapa {
+  text-align: center;
+}
