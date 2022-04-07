@@ -61,11 +61,14 @@ nav ul li a {
   text-decoration: none;
   /* nenhum */
 }
+main {
+  background-color: rgb(0, 255, 213);
+}
 
 footer {
   height: 500px;
   /* altura em 300px */
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(122, 253, 227);
   color: rgb(19, 4, 233);
   font-family: "arial";
   padding-top: 50px;
@@ -127,4 +130,17 @@ main form input[type="submit"] {
 }
 h2 {
   font-size: 30pt;
+}
+#imgrestaurante {
+  text-align: center;
+}
+
+#restaurante img {
+  width: 700px;
+  height: 700px;
+  margin: 15px;
+}
+
+#restaurante {
+  text-align: center;
 }
