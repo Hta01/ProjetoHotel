@@ -231,7 +231,7 @@ h3 {
 main form {
   width: 40%;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(3, 240, 169);
   margin-left: auto;
   margin-right: auto;
 }
@@ -244,17 +244,19 @@ main form textarea {
   padding: 10px;
   margin-top: 10px;
   border: 0px;
-  border-bottom: 1px solid silver;
+  border-bottom: 1px solid rgb(192, 192, 192);
   border-radius: 5px;
   display: block;
+  font-weight: bold;
+  color: black;
 }
 main form input[type="tel"],
 main form select {
   width: 30%;
 }
 main form textarea {
-  height: 250px;
-  border: 1px solid silver;
+  height: 150px;
+  border: 1px solid rgb(4, 130, 189);
   margin-bottom: 10px;
 }
 
@@ -263,11 +265,15 @@ main form input[type="submit"] {
   border: 0px;
   background-color: teal;
   font-weight: bold;
+  border-radius: 5px;
   cursor: pointer;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 45%;
 }
-
+main form input[type="email"] {
+  width: 100%;
+}
+/* fim do contado */
 /* inicio do restaurante  */
 h2 {
   font-size: 30pt;
