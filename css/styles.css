@@ -1,0 +1,294 @@
+/*
+arquivo css para formatação do site do Hotel
+*/
+
+/*
+aplicar a formatação a todos os elmentos. usarems o asterisco(*)
+*/
+
+* {
+  /*  zerar as margens externas dos elementos */
+  margin: 0;
+  /* zerar as margens internas do elementos  */
+  padding: 0;
+  /* ajuste das caixas(box) dos elementos */
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(11, 253, 173);
+}
+
+header {
+  height: 300px;
+  /* altura da caixa */
+  /* adicionaar uma imagem ao fundo  */
+  background-image: url("../img/frente02.jpg");
+  /* ajustar a largura da imagem em 100% */
+  background-size: 100%;
+  /* ajustar a posiçao em x e y da imagem de fundo */
+  background-position: 0 -500px;
+  /* animação no fundo */
+  transition: ease 0.5s;
+}
+h1 {
+  text-align: center;
+  font-family: "arial";
+  color: rgb(14, 154, 179);
+  /* aplicar uma sombra no texto */
+  padding-top: 130px;
+  font-size: 70px;
+  text-shadow: 10px 10px 5px rgba(5, 6, 70, 0.925);
+}
+
+nav {
+  background-color: rgb(5, 253, 150);
+  text-align: center;
+}
+
+nav ul li {
+  /* dispor os itens da lista (li) em linha  */
+  display: inline-block;
+  /* aumentar as distancia entre os elmentos */
+  padding: 5px;
+  transition: ease 0.5s;
+}
+nav ul li:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul li a {
+  font-family: "vernada";
+  font-size: 20pt;
+  color: rgb(0, 0, 122);
+  /* retirar o underline do link */
+  text-decoration: none;
+  /* nenhum */
+}
+main {
+  background-color: rgb(0, 255, 213);
+}
+
+footer {
+  height: 500px;
+  /* altura em 300px */
+  background-color: rgb(122, 253, 227);
+  color: rgb(19, 4, 233);
+  font-family: "arial";
+  padding-top: 50px;
+  /* dispor de froma flexivel e em linha */
+  display: flex;
+  flex-direction: row;
+}
+#redes img {
+  width: 100px;
+  right: 100px;
+}
+/*  início dos css home  */
+h2 {
+  font-family: "arial";
+  font-size: 30pt;
+  margin: 50px;
+  /* borda na parte inferior(bottom) do h2 */
+  border-bottom: 1px solid darkred;
+}
+
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia;
+  font-size: 20pt;
+  line-height: 20pt; /*espaçamento entre linhas*/
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+  border-radius: 100px;
+  opacity: 0.9;
+  transition: ease 0.5s;
+  /* mudar o ponteiro do mouse para uma mão */
+  cursor: pointer;
+}
+#imgHome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+/*  fim do home */
+
+/* início do histoia  */
+#historia p {
+  width: 70%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 30pt;
+  text-align: justify;
+}
+
+#imgHistoria {
+  text-align: center;
+}
+#imgHistoria img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+iframe {
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+}
+/* fim da historia  */
+
+/* início do village */
+h3 {
+  font-family: arial;
+  font-size: 30pt;
+  margin: 30px;
+}
+
+#linha {
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha*/
+  box-shadow: 2px 2px 10px black;
+  justify-content: center;
+}
+
+#linha div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linha div img {
+  width: 100%;
+  height: 300px;
+}
+#linha div h4 {
+  font-family: arial;
+  font-size: 15pt;
+  margin: 10px;
+}
+
+#linha div p {
+  font-family: arial;
+  font-size: 15pt;
+  color: rgb(22, 20, 20);
+  margin: 10px;
+  font-weight: bold;
+}
+/* fim do village */
+
+/* início do  quarto */
+h3 {
+  font-family: arial;
+  font-size: 30pt;
+  margin: 30px;
+}
+
+#linha {
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha*/
+  box-shadow: 2px 2px 10px black;
+  justify-content: center;
+}
+
+#linha div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linha div img {
+  width: 100%;
+  height: 300px;
+}
+#linha div h4 {
+  font-family: arial;
+  font-size: 15pt;
+  margin: 10px;
+}
+
+#linha div p {
+  font-family: arial;
+  font-size: 15pt;
+  color: rgb(15, 14, 14);
+  margin: 10px;
+  font-weight: bold;
+}
+/* fim do quarto */
+
+/* inicio do contato  */
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(3, 240, 169);
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  display: block;
+  font-weight: bold;
+  color: black;
+}
+main form input[type="tel"],
+main form select {
+  width: 30%;
+}
+main form textarea {
+  height: 150px;
+  border: 1px solid rgb(4, 130, 189);
+  margin-bottom: 10px;
+}
+
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: teal;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  margin-left: 45%;
+}
+main form input[type="email"] {
+  width: 100%;
+}
+/* fim do contado */
+/* inicio do restaurante  */
+h2 {
+  font-size: 30pt;
+}
+#imgrestaurante {
+  text-align: center;
+}
+
+#restaurante img {
+  width: 700px;
+  height: 700px;
+  margin: 15px;
+}
+
+#restaurante {
+  text-align: center;
+}
+/* fim do restaurante */
