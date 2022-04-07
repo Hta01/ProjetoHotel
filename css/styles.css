@@ -14,6 +14,9 @@ aplicar a formatação a todos os elmentos. usarems o asterisco(*)
   /* ajuste das caixas(box) dos elementos */
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(11, 253, 173);
+}
 
 header {
   height: 300px;
@@ -81,53 +84,191 @@ footer {
   right: 100px;
 }
 /*  início dos css home  */
+h2 {
+  font-family: "arial";
+  font-size: 30pt;
+  margin: 50px;
+  /* borda na parte inferior(bottom) do h2 */
+  border-bottom: 1px solid darkred;
+}
+
+#home p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia;
+  font-size: 20pt;
+  line-height: 20pt; /*espaçamento entre linhas*/
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+  border-radius: 100px;
+  opacity: 0.9;
+  transition: ease 0.5s;
+  /* mudar o ponteiro do mouse para uma mão */
+  cursor: pointer;
+}
+#imgHome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
 /*  fim do home */
+
 /* início do histoia  */
+#historia p {
+  width: 70%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 30pt;
+  text-align: justify;
+}
+
+#imgHistoria {
+  text-align: center;
+}
+#imgHistoria img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+iframe {
+  width: 100%;
+  height: 500px;
+  margin: 20px;
+}
 /* fim da historia  */
+
 /* início do village */
+h3 {
+  font-family: arial;
+  font-size: 30pt;
+  margin: 30px;
+}
+
+#linha {
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha*/
+  box-shadow: 2px 2px 10px black;
+  justify-content: center;
+}
+
+#linha div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linha div img {
+  width: 100%;
+  height: 300px;
+}
+#linha div h4 {
+  font-family: arial;
+  font-size: 15pt;
+  margin: 10px;
+}
+
+#linha div p {
+  font-family: arial;
+  font-size: 15pt;
+  color: rgb(22, 20, 20);
+  margin: 10px;
+  font-weight: bold;
+}
 /* fim do village */
+
 /* início do  quarto */
+h3 {
+  font-family: arial;
+  font-size: 30pt;
+  margin: 30px;
+}
+
+#linha {
+  padding: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*quebra de linha*/
+  box-shadow: 2px 2px 10px black;
+  justify-content: center;
+}
+
+#linha div {
+  width: 30%;
+  margin: 10px;
+  border: 1px solid silver;
+}
+#linha div img {
+  width: 100%;
+  height: 300px;
+}
+#linha div h4 {
+  font-family: arial;
+  font-size: 15pt;
+  margin: 10px;
+}
+
+#linha div p {
+  font-family: arial;
+  font-size: 15pt;
+  color: rgb(15, 14, 14);
+  margin: 10px;
+  font-weight: bold;
+}
 /* fim do quarto */
+
 /* inicio do contato  */
 main form {
   width: 40%;
-  padding: 19px;
-  background-color: rgb(46, 153, 196);
+  padding: 10px;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
 main form input[type="text"],
-main form input[type="E-mail"],
+main form input[type="email"],
 main form input[type="tel"],
 main form select,
 main form textarea {
-  background-color: rgb(248, 248, 248);
   width: 100%;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   border: 0px;
-  border-bottom: 1px solid rgb(225, 230, 231);
+  border-bottom: 1px solid silver;
+  border-radius: 5px;
+  display: block;
 }
-main form input[type="tel"] main form select {
+main form input[type="tel"],
+main form select {
   width: 30%;
-  background-color: rgb(231, 234, 235);
 }
 main form textarea {
   height: 250px;
-  border: 1px solid black;
+  border: 1px solid silver;
   margin-bottom: 10px;
 }
 
 main form input[type="submit"] {
   padding: 10px;
   border: 0px;
-  background-color: whitesmoke;
+  background-color: teal;
   font-weight: bold;
-  border-radius: 10px;
   cursor: pointer;
-  color: rgb(197, 131, 8);
-  margin-left: 43%;
+  color: white;
+  margin-left: 45%;
 }
+
+/* inicio do restaurante  */
 h2 {
   font-size: 30pt;
 }
@@ -144,3 +285,4 @@ h2 {
 #restaurante {
   text-align: center;
 }
+/* fim do restaurante */
